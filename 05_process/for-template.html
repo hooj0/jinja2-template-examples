@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for loop process</title>
+</head>
+<body>
+
+    <h1>Members</h1>
+    <!-- 循环 list -->
+    <ul>
+        {% for user in users %}
+        <li>{{ user.username|e }}</li>
+        {% endfor %}
+    </ul>
+
+    <!-- 循环 dict -->
+    <dl>
+        {% for key, value in my_dict.items() %}
+        <dt>{{ key|e }}</dt>
+        <dd>{{ value|e }}</dd>
+        {% endfor %}
+    </dl>
+
+    <dl>
+        {% for key, value in my_dict2.items() %}
+        <dt>{{ key }}</dt>
+        <dd>{{ value }}</dd>
+        {% endfor %}
+    </dl>
+
+    <!-- 循环 dict -->
+    <!--
+    变量	            描述
+    loop.index	    循环的当前迭代。（1索引）
+    loop.index0	    循环的当前迭代。（0索引）
+    loop.revindex	循环结束时的迭代次数（1个索引）
+    loop.revindex0	循环结束时的迭代次数（0索引）
+    loop.first	    如果第一次迭代，则为True。
+    loop.last	    如果最后一次迭代则为真。
+    loop.length	    序列中的项目数。
+    loop.cycle	    辅助函数，用于在序列列表之间循环。请参阅以下说明。
+    loop.depth	    指示当前呈现的递归循环的深度。从1级开始
+    loop.depth0	    指示当前呈现的递归循环的深度。从0级开始
+    loop.previtem	循环的上一次迭代中的项目。在第一次迭代期间未定义。
+    loop.nextitem	循环的以下迭代中的项。在上一次迭代期间未定义。
+    loop.changed（* VAL）	如果先前使用不同的值调用（或根本不调用），则为True。
+    -->
+    {% for row in rows %}
+    <li class="{{ loop.cycle('odd', 'even') }}">
+        data: {{ row }},
+        index: {{ loop.index0 }}, number: {{ loop.index }},
+        剩余次数: {{ loop.revindex }}, 剩余元素: {{ loop.revindex0 }},
+        first：{{ loop.first }}, last：{{ loop.last }},
+        length: {{ loop.length }}, cycle： {{ loop.cycle('奇数', '偶数') }},
+        depth: {{ loop.depth }},
+        prev: {{ loop.previtem}}, next: {{ loop.nextitem }},
+        change: {{ loop.changed(row) }}
+    </li>
+    {% endfor %}
+
+    <!-- 过滤或跳槽循环，当 user 对象 存在 hidden = True 就不循环 -->
+    {% for user in users if not user.hidden %}
+    <li>{{ user.username|e }}</li>
+    {% endfor %}
+
+    <!-- 当user2 不能存在 就执行 else -->
+    <ul>
+        {% for user in users2 %}
+        <li>{{ user.username|e }}</li>
+        {% else %}
+        <li><em>no users found</em></li>
+        {% endfor %}
+    </ul>
+
+    <!-- 递归循环 -->
+    <ul class="sitemap">
+        {%- for item in sitemap recursive %}
+        <li><a href="{{ item.href|e }}">{{ item.title }}</a>
+            {%- if item.children -%}
+            <ul class="submenu">{{ loop(item.children) }}</ul>
+            {%- endif %}</li>
+        {%- endfor %}
+    </ul>
+</body>
+</html>
