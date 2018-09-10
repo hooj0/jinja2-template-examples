@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>macro process struct</title>
+</head>
+<body>
+
+    ## 定义宏代码块
+    {% macro input(name, value='', type='text', size=20) -%}
+    <input type="{{ type }}" name="{{ name }}" value="{{ value|e }}" size="{{ size }}">
+    kwargs: {{ kwargs }}, varargs: {{ varargs }}
+    {%- endmacro %}
+
+    ## 可以像命名空间中的函数一样调用宏：
+    <p>{{ input('username', a="1", c="b") }}</p>
+    <p>{{ input('password', type='password', a=1, b=2) }}</p>
+
+    macro name：{{ input.name }}
+
+
+    ## 嵌套调用宏
+    {% macro render_dialog(title, class='dialog') -%}
+    <div class="{{ class }}">
+        <h2>{{ title }}</h2>
+        <div class="contents">
+            {{ caller() }}  ## 嵌套调用标记，将取得 call 块中的内容进行填充
+        </div>
+    </div>
+    {%- endmacro %}
+
+    {% call render_dialog('Hello World') -%}
+    This is a simple dialog rendered by using a macro and a call block.
+    {%- endcall %}
+
+
+    ## 参数回传，循环调用
+    -------------------------------------------
+    {% macro dump_users(users) -%}
+    <ul>
+        {% for user in users %}
+        <li>
+            <p>{{ user.username|e }}</p>
+            {{ caller(user) }}  ## 传入循环的参数
+        </li>
+        {% endfor %}
+    </ul>
+    {% endmacro %}
+
+    ## call 接收参数
+    {%- call(user) dump_users(list_of_user) -%}
+        <dl>
+            <dl>Realname</dl>
+            <dd>{{ user.realname|e }}</dd>
+            <dl>Description</dl>
+            <dd>{{ user.description }}</dd>
+        </dl>
+    {% endcall %}
+</body>
+</html>
