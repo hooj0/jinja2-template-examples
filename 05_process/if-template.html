@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>process if struct</title>
+</head>
+<body>
+
+    <!-- if 判断 -->
+    {% if users %}
+    <ul>
+        {% for user in users %}
+        <li>{{ user.username|e }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+
+    <!-- if else 判断 -->
+    {% if kenny.sick %}
+    Kenny is sick.
+    {% elif kenny.dead %}
+    You killed Kenny!  You bastard!!!
+    {% else %}
+    Kenny looks okay --- so far
+    {% endif %}
+
+</body>
+</html>
