@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% block head %}
+        <link rel="stylesheet" href="style.css" />
+        <title>{% block title %}{% endblock %} - My Webpage</title>
+        {# 自调用、重复调用 #}
+        <h1>{{ self.title() }}</h1>
+        {% endblock %}
+    </head>
+
+    <body>
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+        <div id="footer">
+            {% block footer %}
+            &copy; Copyright 2008 by <a href="http://domain.invalid/">you</a>.
+            {% endblock %}
+        </div>
+
+        <ul>
+            {% for item in seq %}
+            <li>{% block loop_item scoped %}{{ item }}{% endblock %}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
