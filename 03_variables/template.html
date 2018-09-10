@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ title }}</title>
+    </head>
+
+    <body>
+        <ul id="navigation">
+            {% for item in navigation %}
+            <li><a href="{{ item.href }}">{{ item['caption'] }}</a></li>
+            {% endfor %}
+        </ul>
+
+        <h1>My Webpage</h1>
+        {{ a_variable }}
+
+        {# a comment #}
+
+        <!-- 调用内置函数方法 -->
+        {{ a_variable|striptags|title }}
+        {{ [1, 3, 3]|join('/ ') }}
+
+        <!-- 判断是否存在变量 -->
+        {% if variable is defined %}
+        value of variable: {{ variable }}
+        {% else %}
+        variable is not defined
+        {% endif %}
+
+        <!-- 注释 -->
+        {# note: commented-out template because we no longer use this
+            {% for user in users %}
+            ...
+            {% endfor %}
+        #}
+
+        <!-- 空白与换行 -->
+        {# 删除首尾的空白和换行 #}
+        {% for item in navigation -%}
+        <span>{{ item['caption'] }}</span>
+        {%- endfor %}
+        -----------------------------------------
+        {# 删除首尾的空白和换行 #}
+        {%- if title -%}
+        <div>{{ title }}</div>
+        {%- endif -%}
+
+
+        {# 输出代码语句块 #}
+        {% raw %}
+        <ul>
+            {% for item in navigation %}
+            <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+        {% endraw %}
+
+        {# 行语句的使用，需要开启配置 #}
+        <ul>
+            # for item in seq:
+            <li>{{ item }}</li> ## 注释内容
+            # endfor
+        </ul>
+
+        <ul>
+            {% for item in seq %}
+            <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+
+        {# 行语句大括号跨行使用 #}
+        <ul>
+            # for href, caption in [('index.html', 'Index'),
+            ('about.html', 'About')]:
+            <li><a href="{{ href }}">{{ caption }}</a></li>
+            # endfor
+        </ul>
+    </body>
+</html>
