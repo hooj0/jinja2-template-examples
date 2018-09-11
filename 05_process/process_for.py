@@ -34,16 +34,26 @@ env = Environment(loader=loader,
 # 获取模板
 template = env.get_template('for-template.html')
 
+user = [
+    {"username": "jack"},
+    {"username": "老张", "hidden": True},
+    {"username": "tom 'kid <jim> ", "hidden": False}
+]
+
+sitemap = [
+    {"item": "foo", "href": "foo/a.htm"},
+    {
+        "item": "bar", "href": "bar/a.htm",
+        "children": [{ "item": "bar-1", "href": "bar-1/a.htm"}]
+    }
+]
+
 # 渲染模板
-result = template.render(users = [{ "username": "jack" }, { "username": "老张", "hidden": True }, { "username": "tom 'kid <jim> ", "hidden": False }],
+result = template.render(users = user,
                          my_dict = dict(name = 'tom', age = 22, address = 'china'),
                          my_dict2 = { 'name': 'jack', 'age': 22, 'brithday': (2010, 10, 22) },
                          rows = [ "a", "b", "c", "c" ],
-                         sitemap = [ { "item": "foo", "href": "foo/a.htm" },
-                                     { "item": "bar", "href": "bar/a.htm",
-                                       "children": [ { "item": "bar-1", "href": "bar-1/a.htm" } ]
-                                     }
-                                    ]
+                         sitemap = sitemap
                          )
 
 print(result)
