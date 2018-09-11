@@ -1,10 +1,14 @@
 {# 继承模板 #}
+##--------------------------------------------------------------------
 {% extends "basic-template.html" %}
 
+
 {# 定义title代码块进行填充 #}
+##--------------------------------------------------------------------
 {% block title %}Index{% endblock %}
 
 {# 定义head代码块进行填充 #}
+##--------------------------------------------------------------------
 {% block head %}
 {{ super() }}
     <style type="text/css">
@@ -12,13 +16,16 @@
     </style>
 {% endblock %}
 
+
 {# 定义 content 代码块进行填充 #}
+##--------------------------------------------------------------------
 {% block content %}
 <h1>Index</h1>
 <p class="important">
     Welcome to my awesome homepage.
 </p>
 {% endblock %}
+
 
 {% block loop_item %}
     <b>loop item element</b>
