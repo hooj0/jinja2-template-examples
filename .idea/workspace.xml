@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="060f50ae-4f93-4962-b7ac-4be2715c61d1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/08_expressions/expression-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/08_expressions/expression-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_expressions/expressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_expressions/expressions.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/jinja2_template_examples$expressions.coverage" NAME="expressions Coverage Results" MODIFIED="1536657752791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_expressions" />
+    <SUITE FILE_PATH="coverage/jinja2_template_examples$expressions.coverage" NAME="expressions Coverage Results" MODIFIED="1536658240486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_expressions" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$filter.coverage" NAME="filter Coverage Results" MODIFIED="1536630469161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_filter_set_ns" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$import.coverage" NAME="import Coverage Results" MODIFIED="1536651070779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_include" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$process_for.coverage" NAME="process_for Coverage Results" MODIFIED="1536572740012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_process" />
@@ -37,28 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="import.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07_include/import.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="23" selection-start-line="23" selection-end-line="42" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reader-var.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07_include/reader-var.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="expressions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08_expressions/expressions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="173">
               <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
@@ -67,8 +50,8 @@
       <file leaf-file-name="expression-template.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/08_expressions/expression-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+            <state relative-caret-position="168">
+              <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -394,12 +377,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536549402753</updated>
-      <workItem from="1536549406024" duration="34572000" />
+      <workItem from="1536549406024" duration="35119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34572000" />
+    <option name="totallyTimeSpent" value="35119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -671,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_expressions/expressions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/jinja2/parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -685,10 +661,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/08_expressions/expressions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/08_expressions/expression-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+        <state relative-caret-position="168">
+          <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
         </state>
       </provider>
     </entry>
