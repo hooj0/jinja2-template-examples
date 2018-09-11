@@ -7,14 +7,17 @@
 <body>
 
     <h1>Members</h1>
-    <!-- 循环 list -->
+    ## 循环 list
+    ##--------------------------------------------------------------------
     <ul>
         {% for user in users %}
         <li>{{ user.username|e }}</li>
         {% endfor %}
     </ul>
 
-    <!-- 循环 dict -->
+
+    ## 循环 dict
+    ##--------------------------------------------------------------------
     <dl>
         {% for key, value in my_dict.items() %}
         <dt>{{ key|e }}</dt>
@@ -28,6 +31,7 @@
         <dd>{{ value }}</dd>
         {% endfor %}
     </dl>
+
 
     <!-- 循环 dict -->
     <!--
@@ -59,12 +63,16 @@
     </li>
     {% endfor %}
 
-    <!-- 过滤或跳槽循环，当 user 对象 存在 hidden = True 就不循环 -->
+
+    ## 过滤或跳槽循环，当 user 对象 存在 hidden = True 就不循环
+    ##--------------------------------------------------------------------
     {% for user in users if not user.hidden %}
     <li>{{ user.username|e }}</li>
     {% endfor %}
 
-    <!-- 当user2 不能存在 就执行 else -->
+
+    ## 当user2 不能存在 就执行 else
+    ##--------------------------------------------------------------------
     <ul>
         {% for user in users2 %}
         <li>{{ user.username|e }}</li>
@@ -73,7 +81,9 @@
         {% endfor %}
     </ul>
 
-    <!-- 递归循环 -->
+
+    ## 递归循环
+    ##--------------------------------------------------------------------
     <ul class="sitemap">
         {%- for item in sitemap recursive %}
         <li><a href="{{ item.href|e }}">{{ item.title }}</a>
