@@ -36,6 +36,6 @@ env = Environment(loader=loader,
 template = env.get_template('set-template.html')
 
 # 渲染模板
-result = template.render()
+result = template.render(seq = ['foo', 'bar'], items = ['foo', None, 235], message = "is a message text")
 
 print(result)
