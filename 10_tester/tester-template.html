@@ -1,10 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+## ==============================================================================
+## filter 过滤器标签
+## http://jinja.pocoo.org/docs/2.10/templates/#list-of-builtin-tests
+## ==============================================================================
+
+<!--
+callable(object)：是否可调用。
+defined(object)：是否已经被定义了。
+escaped(object)：是否已经被转义了。
+upper(object)：是否全是大写。
+lower(object)：是否全是小写。
+string(object)：是否是一个字符串。
+sequence(object)：是否是一个序列。
+number(object)：是否是一个数字。
+odd(object)：是否是奇数。
+even(object)：是否是偶数。
+-->
+
+## defined 判断变量定义
+## -------------------------------------------------------------------------------
+{% if variable is defined %}
+value of variable: {{ variable }}
+{% else %}
+variable is not defined
+{% endif %}
