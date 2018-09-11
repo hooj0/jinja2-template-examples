@@ -2,11 +2,14 @@
 <html lang="en">
 
 ## 如果引入文件模板不存在，可以忽略错误
+##--------------------------------------------------------------------------
 {% include 'header-not-found.html' ignore missing %}
 {% include 'header-not-found.html' ignore missing with context %}
 {% include 'header-not-found.html' ignore missing without context %}
 
+
 ## 导入多个文件
+##--------------------------------------------------------------------------
 ##{% include ['page_detailed.html', 'page.html'] %}
 {% include ['special_sidebar.html', 'sidebar.html'] ignore missing %}
 
@@ -15,6 +18,7 @@
     this is include example
 
     ## 访问上下文变量
+    ##--------------------------------------------------------------------------
     var: {{ var }}
 </body>
 {% include 'footer-template.html' %}
