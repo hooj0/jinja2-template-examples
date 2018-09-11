@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="060f50ae-4f93-4962-b7ac-4be2715c61d1" name="Default" comment="" />
+    <list default="true" id="060f50ae-4f93-4962-b7ac-4be2715c61d1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_filter_set_ns/filter-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_filter_set_ns/filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_filter_set_ns/set-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_filter_set_ns/set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment" beforeDir="false" afterPath="$PROJECT_DIR$/comment" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,29 +19,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/jinja2_template_examples$filter.coverage" NAME="filter Coverage Results" MODIFIED="1536630469161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_filter_set_ns" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$process_for.coverage" NAME="process_for Coverage Results" MODIFIED="1536572740012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_process" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$api_env.coverage" NAME="api_env Coverage Results" MODIFIED="1536564007882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_api_env" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$process_if.coverage" NAME="process_if Coverage Results" MODIFIED="1536573266363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_process" />
-    <SUITE FILE_PATH="coverage/jinja2_template_examples$process_macro.coverage" NAME="process_macro Coverage Results" MODIFIED="1536575166238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_process" />
+    <SUITE FILE_PATH="coverage/jinja2_template_examples$process_macro.coverage" NAME="process_macro Coverage Results" MODIFIED="1536628715260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_process" />
+    <SUITE FILE_PATH="coverage/jinja2_template_examples$set.coverage" NAME="set Coverage Results" MODIFIED="1536631161349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_filter_set_ns" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$variables.coverage" NAME="variables Coverage Results" MODIFIED="1536567327765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_variables" />
+    <SUITE FILE_PATH="coverage/jinja2_template_examples$string_template.coverage" NAME="string_template Coverage Results" MODIFIED="1536628762043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_filter_set_ns" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$extend.coverage" NAME="extend Coverage Results" MODIFIED="1536569189742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_extend" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="process_macro.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_process/process_macro.py">
+      <file leaf-file-name="comment" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comment">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="44" column="125" selection-start-line="44" selection-start-column="125" selection-end-line="44" selection-end-column="125" />
+            <state relative-caret-position="75">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="macro-template.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05_process/macro-template.html">
+      <file leaf-file-name="set.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_filter_set_ns/set.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+            <state relative-caret-position="280">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="set-template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_filter_set_ns/set-template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -43,12 +72,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,7 +90,6 @@
         <option value="$PROJECT_DIR$/04_extend/block-template.html" />
         <option value="$PROJECT_DIR$/04_extend/basic-template.html" />
         <option value="$PROJECT_DIR$/01_started/quick_started.py" />
-        <option value="$PROJECT_DIR$/comment" />
         <option value="$PROJECT_DIR$/02_api_env/api_env.py" />
         <option value="$PROJECT_DIR$/03_variables/variables.py" />
         <option value="$PROJECT_DIR$/04_extend/extend.py" />
@@ -69,6 +99,13 @@
         <option value="$PROJECT_DIR$/05_process/process_if.py" />
         <option value="$PROJECT_DIR$/05_process/process_macro.py" />
         <option value="$PROJECT_DIR$/05_process/macro-template.html" />
+        <option value="$PROJECT_DIR$/06_filter_set_ns/string_template.py" />
+        <option value="$PROJECT_DIR$/06_filter_set_ns/filter.py" />
+        <option value="$PROJECT_DIR$/06_filter_set_ns/filter-template.html" />
+        <option value="$PROJECT_DIR$/comment" />
+        <option value="$PROJECT_DIR$/06_filter_set_ns/set.py" />
+        <option value="$PROJECT_DIR$/06_filter_set_ns/set-template.html" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -94,6 +131,9 @@
     <option name="width" value="1460" />
     <option name="height" value="920" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -108,6 +148,11 @@
             <path>
               <item name="jinja2-template-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="jinja2-template-examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinja2-template-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinja2-template-examples" type="462c0819:PsiDirectoryNode" />
+              <item name=".circleci" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,11 +177,11 @@
       <recent name="D:\idea_workspace\jinja2-template-examples\commons" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_workspace\jinja2-template-examples\06_filter_set_ns" />
       <recent name="D:\idea_workspace\jinja2-template-examples\05_process" />
       <recent name="D:\idea_workspace\jinja2-template-examples\04_extend" />
       <recent name="D:\idea_workspace\jinja2-template-examples\03_variables" />
       <recent name="D:\idea_workspace\jinja2-template-examples\commons" />
-      <recent name="D:\idea_workspace\jinja2-template-examples\02_env" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.process_macro">
+  <component name="RunManager" selected="Python.set">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -171,7 +216,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="extend" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jinja2-template-examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,31 +224,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_extend" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_filter_set_ns" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_extend/extend.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="process_for" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="jinja2-template-examples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_process" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_process/process_for.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_filter_set_ns/filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +273,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="set" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jinja2-template-examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,12 +281,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_variables" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_filter_set_ns" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_variables/variables.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_filter_set_ns/set.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="string_template" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jinja2-template-examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_filter_set_ns" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_filter_set_ns/string_template.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,19 +334,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Python.variables" />
-      <item itemvalue="Python.extend" />
-      <item itemvalue="Python.process_for" />
       <item itemvalue="Python.process_if" />
       <item itemvalue="Python.process_macro" />
+      <item itemvalue="Python.string_template" />
+      <item itemvalue="Python.filter" />
+      <item itemvalue="Python.set" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.set" />
+        <item itemvalue="Python.filter" />
+        <item itemvalue="Python.string_template" />
         <item itemvalue="Python.process_macro" />
         <item itemvalue="Python.process_if" />
-        <item itemvalue="Python.process_for" />
-        <item itemvalue="Python.extend" />
-        <item itemvalue="Python.variables" />
       </list>
     </recent_temporary>
   </component>
@@ -315,12 +360,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536549402753</updated>
-      <workItem from="1536549406024" duration="18189000" />
+      <workItem from="1536549406024" duration="22951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18189000" />
+    <option name="totallyTimeSpent" value="22951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -331,8 +376,8 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50069445" side_tool="true" weight="0.32939634" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" visible="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" visible="true" weight="0.3298292" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -410,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comment">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_api_env/api_env.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -445,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_process/process_for.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05_process/if-template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -473,17 +504,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_process/process_macro.py">
+    <entry file="file://$PROJECT_DIR$/06_filter_set_ns/string_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="44" column="125" selection-start-line="44" selection-start-column="125" selection-end-line="44" selection-end-column="125" />
+        <state relative-caret-position="370">
+          <caret line="30" column="13" lean-forward="true" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05_process/macro-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        <state relative-caret-position="-195">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_process/process_for.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_process/process_macro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="27" selection-start-line="27" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_filter_set_ns/filter-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_filter_set_ns/filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="24" selection-start-line="24" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_filter_set_ns/set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_filter_set_ns/set-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
         </state>
       </provider>
     </entry>
