@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>inner scope variable assignments</title>
 </head>
 <body>
-$END$
+
+## 变量的声明和应用
+##--------------------------------------------------------------------------
+{% set navigation = [('index.html', 'Index'), ('about.html', 'About')] %}
+{% set key, value = navigation[0] %}
+
+navigation item: {{ navigation | safe }}
+navigation {{ "item: %s" % navigation}}
+key: {{ key }}
+value: {{ value }}
+
+## 变量的声明和应用
+##--------------------------------------------------------------------------
+{% set iterated = false %}
+{% for item in seq %}
+{{ item }}
+{% set iterated = true %}
+{% endfor %}
+{% if not iterated %} did not iterate {% endif %}
 </body>
 </html>

@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>filter</title>
+    </head>
+    <body>
+
+        ## 大写转换处理
+        ##--------------------------------------------
+        {% filter upper %}
+        This text becomes uppercase
+        {% endfilter %}
+
+        ## 翻转转换处理，然后首字母大写
+        ##--------------------------------------------
+        {% filter reverse | title %}
+        This text becomes uppercase
+        {% endfilter %}
+    </body>
 </html>
