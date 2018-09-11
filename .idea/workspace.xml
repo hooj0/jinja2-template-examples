@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="060f50ae-4f93-4962-b7ac-4be2715c61d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/08_expressions/expression-template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_expressions/expressions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_include/macro-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/07_include/macro-template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_include/reader-var.html" beforeDir="false" afterPath="$PROJECT_DIR$/07_include/reader-var.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_expressions/expression-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/08_expressions/expression-template.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/jinja2_template_examples$expressions.coverage" NAME="expressions Coverage Results" MODIFIED="1536653215537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_expressions" />
+    <SUITE FILE_PATH="coverage/jinja2_template_examples$expressions.coverage" NAME="expressions Coverage Results" MODIFIED="1536657020818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08_expressions" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$filter.coverage" NAME="filter Coverage Results" MODIFIED="1536630469161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_filter_set_ns" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$import.coverage" NAME="import Coverage Results" MODIFIED="1536651070779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_include" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$process_for.coverage" NAME="process_for Coverage Results" MODIFIED="1536572740012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_process" />
@@ -71,8 +67,8 @@
       <file leaf-file-name="expression-template.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/08_expressions/expression-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="393">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -398,12 +394,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536549402753</updated>
-      <workItem from="1536549406024" duration="32615000" />
+      <workItem from="1536549406024" duration="33884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32615000" />
+    <option name="totallyTimeSpent" value="33884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -414,9 +410,9 @@
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50069445" side_tool="true" weight="0.32939634" />
       <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49930555" visible="true" weight="0.3298292" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49930555" visible="true" weight="0.33902758" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.66885674" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.6675427" />
       <window_info id="Designer" order="1" />
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" />
@@ -684,8 +680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/08_expressions/expression-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="393">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
