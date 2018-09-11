@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>import file</title>
 </head>
 <body>
-$END$
+
+## 导入外部文件，使用宏
+##--------------------------------------------------------------------------
+{% import 'macro-template.html' as forms %}
+<dl>
+    <dt>Username</dt>
+    <dd>{{ forms.input('username') }}</dd>
+    <dt>Password</dt>
+    <dd>{{ forms.input('password', type='password') }}</dd>
+</dl>
+
+## 导入外部文件，使用宏
+## value = var, 使用变量填充
+<p>{{ forms.textarea('comment', value=var) }}</p>
+
+{{ var }}
+
+
+## 使用外部文件，导入指定的宏使用别名
+## 以一个或多个下划线开头的宏和变量是私有的，无法导入
+##--------------------------------------------------------------------------
+{% from 'macro-template.html' import input as input_field, textarea %}
+<dl>
+    <dt>Username</dt>
+    <dd>{{ input_field('username') }}</dd>
+    <dt>Password</dt>
+    <dd>{{ input_field('password', type='password') }}</dd>
+</dl>
+<p>{{ textarea('comment') }}</p>
+
+
+## 设置导入添加上下文
+##--------------------------------------------------------------------------
+## 添加上下文
+{% from 'macro-template.html' import input with context %}
+## 不添加上下文
+{% include 'body-template.html' without context %}
+
+
+## 在导入的模板文件读取当前模板变量
+--------------------------------------------------------------------------
+{% for box in boxes %}
+    ## 模板文件中能访问 box 变量
+    {% include "reader-var.html" %}
+{% endfor %}
+
 </body>
 </html>
