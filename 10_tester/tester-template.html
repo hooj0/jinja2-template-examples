@@ -4,16 +4,33 @@
 ## ==============================================================================
 
 <!--
-callable(object)：是否可调用。
-defined(object)：是否已经被定义了。
-escaped(object)：是否已经被转义了。
-upper(object)：是否全是大写。
-lower(object)：是否全是小写。
-string(object)：是否是一个字符串。
-sequence(object)：是否是一个序列。
-number(object)：是否是一个数字。
 odd(object)：是否是奇数。
 even(object)：是否是偶数。
+
+eq（a，b ） 别名：	==， equalto
+ge（a，b ） 别名：	>=
+gt（a，b ） 别名：	>， greaterthan
+in（值，seq ）检查值是否为seq。
+le（a，b ）别名：	<=
+lt（a，b ）别名：	<， lessthan
+ne（a，b ）别名：	!=
+
+sameas: 检查对象是否指向与另一个对象相同的内存地址：
+
+callable(object)：是否可调用。
+iterable: 检查是否可以迭代对象。
+mapping:  如果对象是映射（dict等），则返回true。
+sequence: 如果变量是序列，则返回true。序列是可迭代的变量。
+
+defined(object)：是否已经被定义了。
+undefined: 如同defined()但反过来想。
+none: 如果变量为none，则返回true。
+number: 如果变量是数字，则返回true。
+string: 如果对象是字符串，则返回true。
+divisibleby（值，num ）检查变量是否可以被数字整除。
+
+lower: 如果变量是小写的，则返回true。
+upper: 如果变量是大写的，则返回true。
 -->
 
 ## defined 判断变量定义
@@ -22,4 +39,9 @@ even(object)：是否是偶数。
 value of variable: {{ variable }}
 {% else %}
 variable is not defined
+{% endif %}
+
+
+{% if user.attribute is sameas false %}
+the user attribute really is the `False` singleton
 {% endif %}
