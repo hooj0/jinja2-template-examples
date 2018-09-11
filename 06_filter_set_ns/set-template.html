@@ -16,13 +16,61 @@ navigation {{ "item: %s" % navigation}}
 key: {{ key }}
 value: {{ value }}
 
+
 ## 变量的声明和应用
 ##--------------------------------------------------------------------------
 {% set iterated = false %}
 {% for item in seq %}
-{{ item }}
-{% set iterated = true %}
+    {{ item }}
+    {% set iterated = true %}
 {% endfor %}
+
+## 不能访问 for 中的 变量
 {% if not iterated %} did not iterate {% endif %}
+
+
+## 不进入循环将走else流程
+##--------------------------------------------------------------------------
+{% for item in seq2 %}
+    {{ item }}
+{% else %}
+    did not iterate
+{% endfor %}
+
+
+## 设置命名空间，可以在外部使用变量，提升变量作用域
+##--------------------------------------------------------------------------
+{% set ns = namespace(found=false) %}
+
+{% for item in items %}
+    {% if item %}
+        {% set ns.found = true %}
+    {% endif %}
+    * {{ item.title }}
+{% endfor %}
+
+Found item having something: {{ ns.found }}
+
+
+## 设置变量块，定义复杂的变量值
+##--------------------------------------------------------------------------
+{% set navigation %}
+    <li><a href="/">Index</a>
+    <li><a href="/downloads">Downloads</a>
+{% endset %}
+
+output: {{ navigation }}
+
+
+## 设置变量块，并利用内置函数做数据过滤转换
+##--------------------------------------------------------------------------
+{% set reply | wordwrap | title %}
+
+    You wrote:
+        {{ message }}
+{% endset %}
+
+output: {{ reply }}
+
 </body>
 </html>
