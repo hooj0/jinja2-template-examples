@@ -77,6 +77,7 @@ class PygmentsExtension(Extension):
         # 两个空列表，还有刚才解析后的语句内容body
         return nodes.CallBlock(self.call_method('_pygmentize', args), [], [], body).set_lineno(lineno)
 
+
     # 这个自定义的内部函数，包含了本扩展的主要逻辑。
     # 其实上面parse()函数内容，大部分扩展都可以重用
     def _pygmentize(self, lang_type, caller):
