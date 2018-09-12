@@ -5,7 +5,7 @@
 # @github:   https://github.com/hooj0
 # @create date: 2018-09-10
 # @copyright by hoojo @2018
-# @changelog jinja2 template filter execution inner func
+# @changelog template filter execution inner func
 
 
 # ===============================================================================
