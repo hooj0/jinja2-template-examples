@@ -27,7 +27,7 @@ from ext.custom_ext_pygments import PygmentsExtension
 loader = FileSystemLoader('.')
 # 更多配置参考：http://jinja.pocoo.org/docs/2.10/api/#high-level-api
 
-# 设置扩展
+# 设置自定义扩展
 extensions = [PygmentsExtension]
 
 env = Environment(loader=loader,
