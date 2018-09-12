@@ -41,7 +41,8 @@ value of variable: {{ variable }}
 variable is not defined
 {% endif %}
 
-
+## 判断 user的属性是否是单例 false 对象
+## -------------------------------------------------------------------------------
 {% if user.attribute is sameas false %}
 the user attribute really is the `False` singleton
 {% endif %}
