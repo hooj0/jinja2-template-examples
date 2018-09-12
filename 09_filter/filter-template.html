@@ -251,3 +251,11 @@ Total: {{ list | sum(attribute='a') }}
 
 {{ "foo bar baz qux"|truncate(11, False, '...', 0) }}
 ##-> "foo bar..."
+
+
+## 使用自定义过滤器
+##------------------------------------------------------------------------------------
+written on: {{ pub_date | datetimeformat }}
+## -> written on: 11:20 / 12-09-2018
+publication date: {{ pub_date | datetimeformat('%d-%m-%Y') }}
+## -> publication date: 12-09-2018
