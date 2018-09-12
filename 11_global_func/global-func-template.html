@@ -1,10 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+## ==============================================================================
+## 全局函数列表
+## http://jinja.pocoo.org/docs/2.10/templates/#list-of-global-functions
+## ==============================================================================
+
+<!--
+range([start, ]stop[, step]) —— 返回整数的列表
+lipsum(n=5, html=True, min=20, max=100) —— 默认情况下，会生成五个HTML段落，每个段落介于20到100个单词之间。
+    如果html为False，则返回常规文本。这对于生成布局测试的简单内容很有用。
+dict(**items) —— dict 生成 字典对象数据
+
+class cycler(*items) —— 循环仪，在给定的序列中轮循
+    reset()：将循环重置为第一个项目
+    next()： 前进一个项目并返回当前项目
+    current：返回当前项
+
+class joiner(sep=', ') —— 连接，多个部分；在标签中使用比较提现优势
+
+class namespace(...) —— 命名空间，可以设置变量作用域
+-->
+
+## range 返回指定的列表
+## -------------------------------------------------------------------------------
+{% for i in range(2, 6) %}
+i: {{ i }}
+{% endfor %}
+
+{% for i in range(2, 60, 6) %}
+step-i: {{ i }}
+{% endfor %}
+
+user count: {{ users | count }}
+{% for number in range(10 - (users | count)) %}
+number: {{ number }}
+{% endfor %}
+
+
+## lipsum 返回 p 段落的HTML列表
+## -------------------------------------------------------------------------------
+{{ lipsum(n=5, html=True, min=20, max=100) }}
+
+
+## dict 生成 字典对象数据
+## -------------------------------------------------------------------------------
+{{ dict(foo='bar', ext='backup') | safe }}
+
+
+## cycler 在给定的序列中轮循
+## -------------------------------------------------------------------------------
+{% set folders, files = ['dir1/', '/dir2', 'dir3/'], ['a.html', 'b.htm', 'c.txt'] %}
+
+## 颜色切换
+{% set row_class = cycler('odd', 'even') %}
+{% for folder in folders %}
+<li class="folder {{ row_class.next() }}">{{ folder|e }}</li>
+{% endfor %}
+
+{% for filename in files %}
+<li class="file {{ row_class.next() }}">{{ filename|e }}</li>
+{% endfor %}
+----------------------------------------------
+{% set cycle = cycler('odd', 'even') %}
+{% for num in range(10, 20, 2) %}
+<li class="{{ cycle.next() }}">Number is "{{ num }}", next line is "{{ cycle.current }}" line.</li>
+{% endfor %}
+
+
+## joiner 分隔符拼接器
+## -------------------------------------------------------------------------------
+{% set categories = ['foo', 'bar', 'even', 'odd'] %}
+{% set pipe = joiner("|") %}
+{% if categories %} {{ pipe() }}
+## 由于使用 join 忽略pipe
+Categories: {{ categories|join(", ") }}
+{% endif %}
+
+## 每个元素前面都有一个 pipe 的分隔符
+{% for val in range(5) -%}{{ pipe() -}}
+<span>{{ val }}</span>
+{%- endfor %}
