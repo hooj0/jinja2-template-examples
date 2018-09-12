@@ -10,12 +10,17 @@
     --------------------------------------------------------------------
     {% macro input(name, value='', type='text', size=20) -%}
     <input type="{{ type }}" name="{{ name }}" value="{{ value|e }}" size="{{ size }}">
-    kwargs: {{ kwargs }}, varargs: {{ varargs }}
+    kwargs: {{ kwargs | safe }}
+    varargs: {{ varargs | safe }}
     {%- endmacro %}
 
     ## 可以像命名空间中的函数一样调用宏：
     <p>{{ input('username', a="1", c="b") }}</p>
     <p>{{ input('password', type='password', a=1, b=2) }}</p>
+
+    ## varargs 这是一个列表。如果调用宏时传入的参数多于宏声明时的参数，多出来的没指定参数名的参数就会保存在这个列表中
+    ## kwargs 这是一个字典。如果调用宏时传入的参数多于宏声明时的参数，多出来的指定了参数名的参数就会保存在这个字典中
+    <p>{{ input('submit', 'submit', 'Submit', 'more arg1', 'more arg2', ext='more arg3') }}</p>
 
     macro name：{{ input.name }}
 
@@ -55,7 +60,7 @@
     {%- call(user) dump_users(list_of_user) -%}
         <dl>
             <dl>Realname</dl>
-            <dd>{{ user.realname|e }}</dd>
+            <dd>{{ user.realname | safe }}</dd>
             <dl>Description</dl>
             <dd>{{ user.description }}</dd>
         </dl>
