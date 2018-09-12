@@ -1,10 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+## ==============================================================================
+## filter 过滤器标签
+## http://jinja.pocoo.org/docs/2.10/templates/#extensions
+## 设置扩展
+## http://jinja.pocoo.org/docs/2.10/extensions/#jinja-extensions
+## ==============================================================================
+
+<!--
+表达式语句: jinja2.ext.do
+循环控制:   jinja2.ext.loopcontrols
+with语句:  jinja2.ext.with_ 此扩展程序已删除，现已内置。 with语句可以创建新的内部范围。在此范围内设置的变量在范围之外不可见
+自动视界扩展:jinja2.ext.autoescape 此扩展程序已删除，现已内置。
+-->
+
+## do 标签的应用
+## -------------------------------------------------------------------------------
+{% set word_statement = ['this is a word statement'] %}
+
+## 使用扩展，使用list的原生append方法
+{% do word_statement.append('a string') %}
+{{ word_statement | safe }}
+## -> ['this is a word statement', 'a string']
+
+
+## 循环控制 break, continue 标签的应用
+## -------------------------------------------------------------------------------
+{% for user in users %}
+    {%- if loop.index is even %}
+        {% continue %}
+    {% endif %}
+    --> {{ user.name | safe }}
+{% endfor %}
+
+## 同样，在第10次迭代后停止处理的循环：
+{% for user in users %}
+    {%- if loop.index >= 10 %}
+        {% break %}
+    {% endif %}
+{%- endfor %}
+
+
+## with语句可以创建新的内部范围。在此范围内设置的变量在范围之外不可见
+## -------------------------------------------------------------------------------
+{% with %}
+{% set foo = 42 %}
+    {{- foo }} ## foo is 42 here
+{% endwith %}
+foo is not visible here any longer: {{ foo }}
+
+## 以下的效果一致
+{% with foo = 42 %}
+    {{ foo }}
+{% endwith %}
+
+{% with %}
+    {% set foo = 42 %}
+    {{ foo }}
+{% endwith %}
