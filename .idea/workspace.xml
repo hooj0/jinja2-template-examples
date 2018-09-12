@@ -53,26 +53,62 @@
       <file leaf-file-name="extensions-template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12_extensions/extensions-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
+            <state relative-caret-position="598">
               <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="espace.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13_esapce/espace.py">
+      <file leaf-file-name="set-template.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06_set/set-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="598">
+              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="espace-template.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/13_esapce/espace-template.html">
+      <file leaf-file-name="set.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_set/set.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reader-var.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_include/reader-var.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="macro-template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_include/macro-template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="include.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_include/include.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer-template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07_include/footer-template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -120,13 +156,9 @@
         <option value="$PROJECT_DIR$/05_process/process_for.py" />
         <option value="$PROJECT_DIR$/06_filter_set_ns/set.py" />
         <option value="$PROJECT_DIR$/06_filter_set_ns/set-template.html" />
-        <option value="$PROJECT_DIR$/07_include/include.py" />
-        <option value="$PROJECT_DIR$/07_include/footer-template.html" />
         <option value="$PROJECT_DIR$/07_include/body-template.html" />
-        <option value="$PROJECT_DIR$/07_include/macro-template.html" />
         <option value="$PROJECT_DIR$/07_include/header-template.html" />
         <option value="$PROJECT_DIR$/07_include/import.py" />
-        <option value="$PROJECT_DIR$/07_include/reader-var.html" />
         <option value="$PROJECT_DIR$/07_include/import-template.html" />
         <option value="$PROJECT_DIR$/02_api_env/templates/my-template.html" />
         <option value="$PROJECT_DIR$/06_filter_set_ns/filter-template.html" />
@@ -137,7 +169,6 @@
         <option value="$PROJECT_DIR$/08_expressions/literals-expression.html" />
         <option value="$PROJECT_DIR$/08_expressions/expressions.py" />
         <option value="$PROJECT_DIR$/08_expressions/expression-template.html" />
-        <option value="$PROJECT_DIR$/09_filter/filter.py" />
         <option value="$PROJECT_DIR$/09_filter/filter-template.html" />
         <option value="$PROJECT_DIR$/10_tester/tester-template.html" />
         <option value="$PROJECT_DIR$/10_tester/tester.py" />
@@ -149,6 +180,13 @@
         <option value="$PROJECT_DIR$/12_extensions/extensions-template.html" />
         <option value="$PROJECT_DIR$/13_esapce/espace.py" />
         <option value="$PROJECT_DIR$/13_esapce/espace-template.html" />
+        <option value="$PROJECT_DIR$/09_filter/filter.py" />
+        <option value="$PROJECT_DIR$/07_include/reader-var.html" />
+        <option value="$PROJECT_DIR$/07_include/macro-template.html" />
+        <option value="$PROJECT_DIR$/07_include/include.py" />
+        <option value="$PROJECT_DIR$/07_include/footer-template.html" />
+        <option value="$PROJECT_DIR$/06_set/set.py" />
+        <option value="$PROJECT_DIR$/06_set/set-template.html" />
       </list>
     </option>
   </component>
@@ -191,6 +229,21 @@
             <path>
               <item name="jinja2-template-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="jinja2-template-examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinja2-template-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinja2-template-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="06_set" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinja2-template-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinja2-template-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="07_include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinja2-template-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinja2-template-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="09_filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jinja2-template-examples" type="b2602c69:ProjectViewProjectNode" />
@@ -406,12 +459,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536549402753</updated>
-      <workItem from="1536549406024" duration="49471000" />
+      <workItem from="1536549406024" duration="49839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49471000" />
+    <option name="totallyTimeSpent" value="49839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -422,11 +475,11 @@
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50069445" side_tool="true" weight="0.32939634" />
       <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49930555" visible="true" weight="0.4390244" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49930555" weight="0.4390244" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.6666667" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="SciView" order="0" />
@@ -530,27 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07_include/footer-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07_include/include.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07_include/macro-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07_include/header-template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -638,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07_include/reader-var.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07_include/import.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -666,20 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06_set/set-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06_set/set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08_expressions/expression-template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -698,13 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09_filter/filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="24" selection-start-line="24" selection-end-line="47" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -771,24 +775,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12_extensions/extensions-template.html">
+    <entry file="file://$PROJECT_DIR$/13_esapce/espace-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="270">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13_esapce/espace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="585">
           <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13_esapce/espace-template.html">
+    <entry file="file://$PROJECT_DIR$/09_filter/filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="15">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_extensions/extensions-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_include/reader-var.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_include/macro-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_include/include.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_include/footer-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_set/set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_set/set-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
         </state>
       </provider>
     </entry>
