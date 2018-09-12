@@ -2,10 +2,10 @@
 ## 定义宏
 ##--------------------------------------------------------------------------
 {% macro input(name, value='', type='text') -%}
-<input type="{{ type }}" value="{{ value|e }}" name="{{ name }}">
+    <input type="{{ type }}" value="{{ value|e }}" name="{{ name }}">
 {%- endmacro %}
 
 {%- macro textarea(name, value='', rows=10, cols=40) -%}
-## 无法引入 var 变量
-<textarea name="{{ name }}" rows="{{ rows }}" cols="{{ cols }}">{{ value|e }} / {{ var }}</textarea>
+    ## 无法引入 var 变量
+    <textarea name="{{ name }}" rows="{{ rows }}" cols="{{ cols }}">{{ value|e }} / {{ var }}</textarea>
 {%- endmacro %}
