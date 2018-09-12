@@ -46,3 +46,18 @@ variable is not defined
 {% if user.attribute is sameas false %}
 the user attribute really is the `False` singleton
 {% endif %}
+
+
+## 判断 user的属性是否是单例 false 对象
+## -------------------------------------------------------------------------------
+{% if 22 is prime %}
+是否为素数：yes
+{% else %}
+是否为素数：no
+{% endif %}
+
+{% if 23 is prime %}
+是否为素数：yes
+{% else %}
+是否为素数：no
+{% endif %}
