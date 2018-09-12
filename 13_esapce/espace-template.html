@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+
+<!--
+在模板渲染字符串的时候，字符串有可能包括一些非常危险的字符比如<、>等，
+这些字符会破坏掉原来HTML标签的结构，更严重的可能会发生XSS跨域脚本攻击，
+因此如果碰到<、>这些字符的时候，应该转义成HTML能正确表示这些字符的写法。
+
+对于一些不信任的字符串，可以通过{{ content_html|e }}或者是{{ content_html|escape }}的方式进行转义。
+如果想关闭自动转义，可以通过{{ content_html|safe }}的方式关闭自动转义。
+-->
+
+## {%autoescape true/false%}...{%endautoescape%}可以将一段代码块放在中间，来关闭或开启自动转义：
+## -------------------------------------------------------------------------------
+{% set user = dict(foo='bar', index=1) %}
+## 开启自动转义
+{% autoescape true %}
+Autoescaping is active within this block: {{ user }}
+{% endautoescape %}
+
+## 关闭自动转义
+{% autoescape false %}
+Autoescaping is inactive within this block: {{ user }}
+{% endautoescape %}
