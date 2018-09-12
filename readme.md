@@ -134,7 +134,6 @@ Python Template Engine framework learning examples
 + [**10_tester**](.//10_tester)
 	- [`tester-template.html`](.//10_tester/tester-template.html)
 		+ [filter 过滤器标签#L2](.//10_tester/tester-template.html#L2)
-		+ [http://jinja.pocoo.org/docs/2.10/templates/list-of-builtin-tests#L3](.//10_tester/tester-template.html#L3)
 		+ [defined 判断变量定义#L36](.//10_tester/tester-template.html#L36)
 		+ [判断 user的属性是否是单例 false 对象#L44](.//10_tester/tester-template.html#L44)
 	- [`tester`](.//10_tester/tester.py)
