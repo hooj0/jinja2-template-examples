@@ -24,6 +24,7 @@ from jinja2 import Environment, select_autoescape, FileSystemLoader
 
 # 从指定位置加载模板的环境
 loader = FileSystemLoader('.')
+
 # 更多配置参考：http://jinja.pocoo.org/docs/2.10/api/#high-level-api
 env = Environment(loader=loader,
                   autoescape=select_autoescape(['html', 'xml']),
