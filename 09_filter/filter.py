@@ -22,6 +22,8 @@
 # -------------------------------------------------------------------------------
 # filter 标签块的字符串转换演示
 # -------------------------------------------------------------------------------
+from datetime import datetime
+
 from jinja2 import Environment, select_autoescape, FileSystemLoader
 
 # 从指定位置加载模板的环境
@@ -33,6 +35,16 @@ env = Environment(loader=loader,
                   line_comment_prefix="##",
                   trim_blocks=True, keep_trailing_newline=True, lstrip_blocks=True)
 
+
+# 定义自定义过滤器：http://jinja.pocoo.org/docs/dev/api/#custom-filters
+# 还可以在代码中使用：environmentfilter()，contextfilter()和 evalcontextfilter()
+# -----------------------------------------------------------------
+def datetimeformat(value, format='%H:%M / %d-%m-%Y'):
+    return value.strftime(format)
+
+# 设置自定义过滤器
+env.filters['datetimeformat'] = datetimeformat
+
 # 获取模板
 template = env.get_template('filter-template.html')
 
@@ -43,7 +55,7 @@ class User():
     __flag = 0
 
 # 渲染模板
-result = template.render(user = User(), users = [ User(), User() ])
+result = template.render(user = User(), users = [ User(), User() ], pub_date = datetime.now())
 
 print(result)
 
