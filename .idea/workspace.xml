@@ -34,24 +34,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="toc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/toc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="135" column="133" selection-start-line="135" selection-start-column="133" selection-end-line="135" selection-end-column="133" />
-              <folding>
-                <element signature="e#221#230#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <first_editor relative-caret-position="270">
+                <caret line="180" lean-forward="true" selection-start-line="180" selection-end-line="180" />
               </first_editor>
               <second_editor />
             </state>
@@ -113,6 +101,7 @@
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
+      <replace>**</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -220,11 +209,6 @@
               <item name="jinja2-template-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="jinja2-template-examples" type="462c0819:PsiDirectoryNode" />
               <item name="01_started" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jinja2-template-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jinja2-template-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="08_expressions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -435,12 +419,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536549402753</updated>
-      <workItem from="1536549406024" duration="58114000" />
+      <workItem from="1536549406024" duration="58258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58114000" />
+    <option name="totallyTimeSpent" value="58258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -452,11 +436,11 @@
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50069445" side_tool="true" weight="0.32939634" />
       <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49930555" weight="0.34281844" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49930555" visible="true" weight="0.34281844" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.6666667" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="1" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="SciView" order="0" />
@@ -471,32 +455,6 @@
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="1" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49930555" visible="true" weight="0.34281844" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info id="Designer" order="1" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.6666667" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50069445" side_tool="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="2" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -873,8 +831,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <first_editor relative-caret-position="270">
+            <caret line="180" lean-forward="true" selection-start-line="180" selection-end-line="180" />
           </first_editor>
           <second_editor />
         </state>
