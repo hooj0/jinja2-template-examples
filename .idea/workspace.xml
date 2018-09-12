@@ -17,6 +17,7 @@
     <SUITE FILE_PATH="coverage/jinja2_template_examples$process_if.coverage" NAME="process_if Coverage Results" MODIFIED="1536573266363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_process" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$espace.coverage" NAME="espace Coverage Results" MODIFIED="1536721281330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_esapce" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$include.coverage" NAME="include Coverage Results" MODIFIED="1536649372761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_include" />
+    <SUITE FILE_PATH="coverage/jinja2_template_examples$custom_extensions.coverage" NAME="custom-extensions Coverage Results" MODIFIED="1536735775369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_extensions" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$filter.coverage" NAME="filter Coverage Results" MODIFIED="1536722436265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_filter" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$import.coverage" NAME="import Coverage Results" MODIFIED="1536651070779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_include" />
     <SUITE FILE_PATH="coverage/jinja2_template_examples$extensions.coverage" NAME="extensions Coverage Results" MODIFIED="1536720377755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_extensions" />
@@ -32,44 +33,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="filter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_filter/filter.py">
+      <file leaf-file-name="custom-extensions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12_extensions/custom-extensions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+              <folding>
+                <element signature="e#845#912#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom-extension-template.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12_extensions/custom-extension-template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom_ext_pygments.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12_extensions/ext/custom_ext_pygments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="23" />
               <folding>
-                <element signature="e#1015#1044#0" expanded="true" />
+                <element signature="e#13#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filter-template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_filter/filter-template.html">
+      <file leaf-file-name="comment" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comment">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tester.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10_tester/tester.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-              <folding>
-                <element signature="e#884#951#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tester-template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10_tester/tester-template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -79,8 +80,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -148,6 +149,9 @@
         <option value="$PROJECT_DIR$/09_filter/filter.py" />
         <option value="$PROJECT_DIR$/10_tester/tester.py" />
         <option value="$PROJECT_DIR$/10_tester/tester-template.html" />
+        <option value="$PROJECT_DIR$/12_extensions/custom-ext-pygments.py" />
+        <option value="$PROJECT_DIR$/12_extensions/custom-extensions.py" />
+        <option value="$PROJECT_DIR$/12_extensions/custom-extension-template.html" />
       </list>
     </option>
   </component>
@@ -194,7 +198,7 @@
             <path>
               <item name="jinja2-template-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="jinja2-template-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="10_tester" type="462c0819:PsiDirectoryNode" />
+              <item name="12_extensions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,15 +219,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea_workspace\jinja2-template-examples\12_extensions" />
+      <recent name="D:\idea_workspace\jinja2-template-examples\12_extensions\ext" />
       <recent name="D:\idea_workspace\jinja2-template-examples\09_filter" />
       <recent name="D:\idea_workspace\jinja2-template-examples" />
       <recent name="D:\idea_workspace\jinja2-template-examples\.circleci\repo" />
-      <recent name="D:\idea_workspace\jinja2-template-examples\02_api_env" />
-      <recent name="D:\idea_workspace\jinja2-template-examples\commons" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea_workspace\jinja2-template-examples\13_esapce" />
       <recent name="D:\idea_workspace\jinja2-template-examples\12_extensions" />
+      <recent name="D:\idea_workspace\jinja2-template-examples\13_esapce" />
       <recent name="D:\idea_workspace\jinja2-template-examples\11_global_func" />
       <recent name="D:\idea_workspace\jinja2-template-examples\10_tester" />
       <recent name="D:\idea_workspace\jinja2-template-examples\08_expressions" />
@@ -241,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tester">
+  <component name="RunManager" selected="Python.custom-extensions">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -260,6 +264,25 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="custom-extensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jinja2-template-examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_extensions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_extensions/custom-extensions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="espace" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jinja2-template-examples" />
@@ -318,25 +341,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="global_func" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="jinja2-template-examples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_global_func" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_global_func/global_func.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="tester" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jinja2-template-examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -379,19 +383,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Python.global_func" />
       <item itemvalue="Python.extensions" />
       <item itemvalue="Python.espace" />
       <item itemvalue="Python.filter" />
       <item itemvalue="Python.tester" />
+      <item itemvalue="Python.custom-extensions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.custom-extensions" />
         <item itemvalue="Python.tester" />
         <item itemvalue="Python.filter" />
         <item itemvalue="Python.espace" />
         <item itemvalue="Python.extensions" />
-        <item itemvalue="Python.global_func" />
       </list>
     </recent_temporary>
   </component>
@@ -405,15 +409,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536549402753</updated>
-      <workItem from="1536549406024" duration="52007000" />
+      <workItem from="1536549406024" duration="55569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52007000" />
+    <option name="totallyTimeSpent" value="55569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Messages" order="0" />
@@ -423,9 +428,9 @@
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49930555" weight="0.60704607" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.6666667" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.6666667" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="1" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="SciView" order="0" />
@@ -647,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comment">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11_global_func/global_func.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -665,13 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12_extensions/extensions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="54" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -738,23 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_filter/filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
-          <folding>
-            <element signature="e#1015#1044#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09_filter/filter-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10_tester/tester-template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -764,11 +738,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10_tester/tester.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+        <state relative-caret-position="375">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
           <folding>
             <element signature="e#884#951#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_filter/filter-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_filter/filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding>
+            <element signature="e#1015#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_extensions/extensions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_extensions/ext/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_extensions/ext/custom_ext_pygments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#13#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_extensions/custom-extensions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <element signature="e#845#912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_extensions/custom-extension-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>

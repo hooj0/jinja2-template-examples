@@ -1,0 +1,12 @@
+<p>A sample of JS code</p>
+
+{% autoescape false %}
+    ## 使用自定义扩展
+    {% code 'javascript' %}
+    var name = 'World';
+    function foo() {
+    console.log('Hello ' + name);
+    }
+    {% endcode %}
+
+{% endautoescape %}
